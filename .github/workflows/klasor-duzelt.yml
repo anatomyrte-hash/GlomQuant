@@ -1,0 +1,101 @@
+name: Restore GlomQuant folders
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/klasor-duzelt.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    if: github.repository == 'anatomyrte-hash/GlomQuant'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Verify and restore the original source folder structure
+        shell: python
+        run: |
+          from pathlib import Path
+          import hashlib
+          import json
+
+          ROOT = Path.cwd().resolve()
+          EXPECTED = {'.gitignore': '0655fcbd40900766a0d9b53f9a9a50ba1c797c6b83ea91f29596609c6c253566', '1_KUR.cmd': '5c7bb56034f726b10cc6dcb01da2b99158ea8246082493b303a3ae8df747a053', '2_ORNEK_KONTROL.cmd': '97024f3e17210983c2bf3ecf136631226f9602ee06824f6b6613e910d051a211', '3_BASLAT.cmd': 'a84699dda70423cc87bb4994f74ce7939a8f8471aad78e3e44d58dda9f2aa118', '4_SONUC_KARSILASTIR.cmd': 'e27c0fdbf2be4748692b84157170af68fbcbd6c8f7b3bc2afbb621b2061fc39d', 'app.py': '5590baa62e0f8041c291463c04d95d4cc1c33e57a0f91efaedb0e7c18d3b33bd', 'CHANGELOG.md': 'c499616c2c5a90fd1e07a558d73234102ef75eee1d0105a54369e6e23e102982', 'infer_wsi_pilot.py': '6565181c47d2812d733cbd76e46da8d862b141d0ac4bd59e3b8db94d67b55e16', 'KULLANIM_TR.md': '4ed8c71d9de40df30fd83c8e3cc30a2aeea87b2987c6d5b2576a3ea35a1945d8', 'LICENSE': '0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0', 'ONCE_OKU.txt': '6804da37c0b52a38bbdbb2b3d28c76481850affab2c0a2bf080c9c22f78ff0ba', 'PUBLICATION_RELEASE_TR.md': '54ab32fa36ae1cdb32236aab1989181cd6852a284b1fa93dd2e6423773545444', 'README.md': 'fd7f826535eb6654e6659d884f380376cb92211b4d112989c818a6ebbaf8473d', 'requirements.lock.txt': 'fbf564ce0a881ef9103d41d46dcc698483cdc7fe85474ca7193698b887999d89', 'sayim_motoru.py': '1f410ced2b7274030f8f49902aaa779f92f06e7403eccabca76730cf68aa5635', 'SECOND_COMPUTER_CHECK_TR.md': 'ed8e7bdab5cc88403502693befe8b7b48d6c4637a359e92e43b2eea982cad782', 'self_check.py': '58193ef050dfdba52ed4b06e4db2c36a69f6a93ded065498ef94a587145acbe0', 'examples/full_slide_reference.json': '63057978af0a2a6d21c5729dae7562dff84d29c98f469061ebce3413f7936445', 'licenses/DATA_NOTICE.md': 'fbd037cad18d13c5d1217ed6767f5e298676163588bba5a6d6a3829c64c7dae8', 'licenses/PYTHON_LICENSE.txt': 'e502c6b880ff58d614901495a9009c136539cd0b1e2a2abb8fc00b934c203419', 'licenses/THIRD_PARTY.md': 'c840cd14848652744a606e950d165b571b6cba6dc7efbf46065253e2dc166581', 'model/best.pt': '98e9ce2434a3839e4dad168a114f48227b704fdc135adebcaa4ad00a4a7853aa', 'provenance/dependency_snapshot.json': '35d98669c492cae0b8d492bf1c763c4374032bd5ef589bf88333af47d651b752', 'provenance/model.json': '7719b166826257adb651ad2f94c206ddf74670b52b4a325af40b1e7fca5fcccb', 'provenance/TRAINING_AUDIT_TR.md': '52b8aff53f61a377425576ff6593ca1ff45bd15e0d1bdc46d759dbd29eab2cce', 'tests/test_engine.py': '598e6b62ec101a273bb969df5ea344b6331ff41b99ee04048b1b6c323d82679b', 'tools/bootstrap.py': '91cc352894cde395a0443fdc24afc563cd00c3bc28671dcb7519ed65338cc948', 'tools/compare_full_slide.py': '9ea3f5fc3b4564d445ef8a24f95288c77ecd077db3037c6a5c3223031436c5df', 'training/59477_reference_v2.geojson': 'e9fefd4d96c8cfc02f3f3c8c849f69a39275934f2d5717d3fd18abdeaf5cb5e8', 'training/args.yaml': '3485c79d909a0eb1112efe37e0868d71a430f5279cc9ab95dbfada3bd2492044', 'training/build_dataset_centered.py': 'cde8ee410343cd88adb34b496253555a03b2b46ded09ee369c733e2906b53d14', 'training/pilot_train.yaml': '12d514c90aff955a06423952dc4d7e31f67f76cbbaaa894ceb805a9047e1ccdd', 'training/README.md': '9db0a7f38da46ce3ec735e920a1f8f1f05ccbdce6865a99f71c3fcd3e1005ee1', 'examples/59614_automatic_reference/detections_filtered.csv': '7a69b7025ee2644feb6c95cf8a0205a6530adb132a79d412cb6c8c98bc20fb93', 'examples/59614_automatic_reference/detections_nms.csv': 'f97d5fe8798d91e3646d9bddefaac1ec0573012e9dcdf095a34b39c603b43540', 'examples/59614_automatic_reference/detections_raw.csv': 'ac30a263e140f1d8389ff9b6826a585d75bd64d83c206b96ce1da05ee7d4b477', 'examples/59614_automatic_reference/filter_audit.json': '8f6c0584e45f97bb69c7b592cbb50bdd99ed51e8d60002cb03464d68d8319507', 'examples/59614_automatic_reference/MODEL_REVIEW.geojson': '327c17f114f22f3dbc414967d66c3d64d88ee49b98eae13051a6d7ef209521ac', 'examples/reference_tiles/manifest.json': '7d4ebc5bd1755a1a61e73de72895871474f7c8ee39cc2bbfd4b589443481f4fa', 'examples/reference_tiles/tile_1.png': 'bcc74dc5a749ada6ca411826b6f763901fd2ad18e89aa04e7ceec603bc0f1b6c', 'examples/reference_tiles/tile_2.png': '1d29539b4b71652897e3c45bb1af85df3853de284f1de5a838e8592e4bb360c4', 'examples/reference_tiles/tile_3.png': '1d4d2ff56c44b18d774f2ca1b41a3544a398281d42644bd42ebf587713b3460a', 'examples/reference_tiles/tile_4.png': 'b3a87ea08bcf7555ce626f4bfefc2e7804623cf4e4c4982ba13347e07f6c2734', 'examples/reference_tiles/tile_5.png': 'fb80861aad4c8987ba72f82ae7f25dbc7dc822851174cd289e3a780b75be1b1a'}
+          FALLBACK = {'.gitignore': b'.venv/\r\n__pycache__/\r\n*.py[cod]\r\nruntime/\r\n*.svs\r\n*.qpdata\r\n*.zip\r\nresults/\r\n*.log\r\n'}
+
+          def digest(data):
+              return hashlib.sha256(data).hexdigest()
+
+          by_hash = {}
+          for path in ROOT.rglob('*'):
+              relative = path.relative_to(ROOT)
+              if any(part in {'.git', '.github', 'repair_backups'} for part in relative.parts):
+                  continue
+              if path.is_file() and not path.is_symlink():
+                  value = digest(path.read_bytes())
+                  by_hash.setdefault(value, []).append(path)
+
+          # Preflight every expected file before changing anything.
+          payload = {}
+          origins = {}
+          missing = []
+          for name, expected in EXPECTED.items():
+              target = ROOT / name
+              if target.is_file() and not target.is_symlink() and digest(target.read_bytes()) == expected:
+                  source = target
+              else:
+                  candidates = by_hash.get(expected, [])
+                  source = candidates[0] if candidates else None
+              if source is not None:
+                  payload[name] = source.read_bytes()
+                  origins[name] = source
+              elif name in FALLBACK and digest(FALLBACK[name]) == expected:
+                  payload[name] = FALLBACK[name]
+              else:
+                  missing.append(name)
+
+          if missing:
+              raise SystemExit('No files changed. Missing or modified files: ' + ', '.join(missing))
+
+          # Keep any unrecognized user edit instead of discarding it.
+          known = set(EXPECTED.values())
+          for name, data in payload.items():
+              target = ROOT / name
+              if target.is_symlink():
+                  raise SystemExit('Symlink destination is not supported: ' + name)
+              if target.exists() and target.is_file():
+                  old = target.read_bytes()
+                  if digest(old) not in known:
+                      backup = ROOT / 'repair_backups' / name
+                      if backup.exists() and backup.read_bytes() != old:
+                          raise SystemExit('Backup already exists with different data: ' + name)
+                      backup.parent.mkdir(parents=True, exist_ok=True)
+                      backup.write_bytes(old)
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(data)
+
+          # Remove only positively identified flattened copies, never arbitrary files.
+          removed = []
+          for source in set(origins.values()):
+              relative = source.relative_to(ROOT).as_posix()
+              if source.parent == ROOT and relative not in EXPECTED and source.is_file():
+                  if digest(source.read_bytes()) in known:
+                      source.unlink()
+                      removed.append(relative)
+
+          for name, expected in EXPECTED.items():
+              assert digest((ROOT / name).read_bytes()) == expected, name
+          print(json.dumps({'status': 'passed', 'verified_files': len(EXPECTED), 'removed_flattened_copies': sorted(removed)}))
+      - name: Save the verified structure
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --all
+          if ! git diff --cached --quiet; then
+            git commit -m 'Restore original source folder structure'
+            git push origin HEAD:main
+          fi
