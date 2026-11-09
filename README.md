@@ -1,4 +1,13 @@
-[# GlomQuant
+# GlomQuant
+
+## ⬇ [WINDOWS UYGULAMASINI İNDİR](https://github.com/anatomyrte-hash/GlomQuant/releases/download/v0.1.0-rc1/GlomQuant-0.1.0-rc1-Windows.zip)
+
+**Programlama bilgisi gerekmez.**
+
+1. ZIP dosyasını indirin ve tamamını bir klasöre çıkarın.
+2. İlk kurulum için **1_KUR.cmd** dosyasını açın. İnternet gerekir.
+3. Programı açmak için **3_BASLAT.cmd** dosyasını çalıştırın.
+
 
 GlomQuant detects and counts two-dimensional glomerular profile candidates in rat kidney whole-slide images and exports editable, numbered GeoJSON boxes for QuPath. This is a Windows x64 **0.1.0-rc1 release candidate**, prepared for installation testing on another computer. It has not yet passed that external installation test.
 
