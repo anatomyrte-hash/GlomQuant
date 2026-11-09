@@ -1,0 +1,24 @@
+{
+  "model": "best.pt",
+  "sha256": "98e9ce2434a3839e4dad168a114f48227b704fdc135adebcaa4ad00a4a7853aa",
+  "architecture": "YOLO11n",
+  "local_training_slide": "59477",
+  "training_epochs": 20,
+  "training_tiles": 484,
+  "training_validation_overlap": true,
+  "filter_tuning_slide": "59479",
+  "inference_settings": {
+    "confidence": 0.1,
+    "tile": 1024,
+    "stride": 768,
+    "imgsz": 640,
+    "model_iou": 0.7,
+    "global_iou": 0.5,
+    "overlap_min_area": 0.5,
+    "tissue_skipping": false,
+    "color": "RGB to BGR",
+    "device": "cpu"
+  },
+  "version": "0.1.0-rc1",
+  "engine_source_sha256": "6cb1f3a6010714de21431d4b62c2d5288569d817fcb314e23fafa12638d3aacb"
+}

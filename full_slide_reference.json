@@ -1,0 +1,9 @@
+{
+  "slide": "59614.svs",
+  "sha256": "d3f32ffe5214c1d5fbd22848e130a8cf45e2b6ef48759fc91b14be428e3f8db1",
+  "historical_automatic_count": 768,
+  "expert_reference": false,
+  "original_slide_included": false,
+  "source_collection": "https://dbarchive.biosciencedbc.jp/data/open-tggates-pathological-images/LATEST/images/phorone/Kidney/",
+  "note": "Historical automatic output, not ground-truth accuracy. Use the same file bytes. Model hash and frozen settings are in provenance/model.json."
+}

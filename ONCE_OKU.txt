@@ -1,0 +1,23 @@
+GlomQuant 0.1.0-rc1 — Windows x64 deneme paketi
+
+1. ZIP dosyasını açmadan çalıştırmayın. Tamamını yazılabilir bir klasöre çıkarın.
+2. İlk kez 1_KUR.cmd dosyasına çift tıklayın. İnternet gerekir; bağımlılıklar
+   bu pakete ait ayrı ortama yüklenir. Yönetici yetkisi ve ayrı Python gerekmez.
+3. Kurulum bitince 2_ORNEK_KONTROL.cmd ile küçük örnek kontrolünü çalıştırın.
+4. 3_BASLAT.cmd dosyasını açın. Slayt seç → Analizi başlat.
+5. Sonuç dosyalarını aç düğmesiyle MODEL_REVIEW.geojson dosyasına ulaşın.
+6. QuPath'te AYNI orijinal .svs görüntüsünü açıp işaret dosyasını içe aktarın.
+
+Çıktılar: %LOCALAPPDATA%\GlomQuant\results
+Kurulum kaydı: %LOCALAPPDATA%\GlomQuant\kurulum.log
+Örnek kontrolü: %LOCALAPPDATA%\GlomQuant\self_check.json
+
+Özel masaüstü klasörleri veya Codex gerekmez. Kurulumdan sonra paket klasörünü
+taşırsanız 1_KUR.cmd dosyasını yeni konumda yeniden çalıştırın.
+Python ortamı ve sonuçlar içeren .venv klasörü araştırmacılar arasında taşınmaz.
+Her bilgisayar bu ZIP'ten kendi kurulumunu yapmalıdır.
+
+Bu bir araştırma deneme sürümüdür. İlk sayı otomatik glomerül profili aday
+sayısıdır. Yeni görüntülerde doğruluk ayrıca kontrol edilmelidir.
+Başka bilgisayarda kullanım henüz doğrulanmamıştır.
+Ayrıntılar: KULLANIM_TR.md ve README.md.

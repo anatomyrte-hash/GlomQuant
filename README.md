@@ -1,0 +1,3 @@
+# Training provenance
+
+The development reference contains 721 glomerular contours on slide 59477. Five subsequently added provisional contours are not included. The dataset builder was the local generator of 484 tiles (242 positive / 242 negative) verified against the source SVS. Obtain the original 59477 SVS from the archive; data-license conditions apply to both images and annotations. This material is for training provenance; application startup never trains or changes the weights. Training and validation reused the same tiles, so training validation metrics are not independent test results. Full local training arguments are recorded below; user paths are replaced by relative paths.

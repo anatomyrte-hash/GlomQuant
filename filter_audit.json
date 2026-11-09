@@ -1,0 +1,1112 @@
+[
+  {
+    "removed_id": 49,
+    "kept_id": 39,
+    "overlap": 0.9306665549887178
+  },
+  {
+    "removed_id": 76,
+    "kept_id": 67,
+    "overlap": 0.9894165298485694
+  },
+  {
+    "removed_id": 110,
+    "kept_id": 1,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 175,
+    "kept_id": 22,
+    "overlap": 0.9737344318848123
+  },
+  {
+    "removed_id": 178,
+    "kept_id": 74,
+    "overlap": 0.9858632346511773
+  },
+  {
+    "removed_id": 187,
+    "kept_id": 104,
+    "overlap": 0.994858278838427
+  },
+  {
+    "removed_id": 216,
+    "kept_id": 92,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 221,
+    "kept_id": 65,
+    "overlap": 0.9266142648663428
+  },
+  {
+    "removed_id": 226,
+    "kept_id": 116,
+    "overlap": 0.9735624941758105
+  },
+  {
+    "removed_id": 248,
+    "kept_id": 80,
+    "overlap": 0.9861136504835871
+  },
+  {
+    "removed_id": 251,
+    "kept_id": 158,
+    "overlap": 0.9221532702025257
+  },
+  {
+    "removed_id": 262,
+    "kept_id": 120,
+    "overlap": 0.9914709964660534
+  },
+  {
+    "removed_id": 301,
+    "kept_id": 28,
+    "overlap": 0.9484922758773793
+  },
+  {
+    "removed_id": 318,
+    "kept_id": 297,
+    "overlap": 0.9936565820886822
+  },
+  {
+    "removed_id": 340,
+    "kept_id": 75,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 342,
+    "kept_id": 88,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 364,
+    "kept_id": 91,
+    "overlap": 0.9909930199375265
+  },
+  {
+    "removed_id": 376,
+    "kept_id": 60,
+    "overlap": 0.9564127364766765
+  },
+  {
+    "removed_id": 379,
+    "kept_id": 73,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 382,
+    "kept_id": 213,
+    "overlap": 0.7150292776295589
+  },
+  {
+    "removed_id": 388,
+    "kept_id": 35,
+    "overlap": 0.7439916531479505
+  },
+  {
+    "removed_id": 413,
+    "kept_id": 199,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 416,
+    "kept_id": 34,
+    "overlap": 0.9584351510770853
+  },
+  {
+    "removed_id": 419,
+    "kept_id": 107,
+    "overlap": 0.974332867567564
+  },
+  {
+    "removed_id": 431,
+    "kept_id": 153,
+    "overlap": 0.9790936920376208
+  },
+  {
+    "removed_id": 432,
+    "kept_id": 415,
+    "overlap": 0.9457690823405016
+  },
+  {
+    "removed_id": 435,
+    "kept_id": 434,
+    "overlap": 0.8257608170916688
+  },
+  {
+    "removed_id": 458,
+    "kept_id": 249,
+    "overlap": 0.9994611755078169
+  },
+  {
+    "removed_id": 461,
+    "kept_id": 368,
+    "overlap": 0.9798402639267104
+  },
+  {
+    "removed_id": 473,
+    "kept_id": 137,
+    "overlap": 0.9191215020446512
+  },
+  {
+    "removed_id": 474,
+    "kept_id": 386,
+    "overlap": 0.9675015924400151
+  },
+  {
+    "removed_id": 477,
+    "kept_id": 283,
+    "overlap": 0.9748792590496324
+  },
+  {
+    "removed_id": 482,
+    "kept_id": 50,
+    "overlap": 0.8739547594138277
+  },
+  {
+    "removed_id": 483,
+    "kept_id": 231,
+    "overlap": 0.9677083875089402
+  },
+  {
+    "removed_id": 500,
+    "kept_id": 28,
+    "overlap": 0.985674003157242
+  },
+  {
+    "removed_id": 511,
+    "kept_id": 204,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 525,
+    "kept_id": 389,
+    "overlap": 0.6391059701184622
+  },
+  {
+    "removed_id": 526,
+    "kept_id": 287,
+    "overlap": 0.9630753160765625
+  },
+  {
+    "removed_id": 535,
+    "kept_id": 150,
+    "overlap": 0.9824169483142362
+  },
+  {
+    "removed_id": 546,
+    "kept_id": 113,
+    "overlap": 0.9234440820538787
+  },
+  {
+    "removed_id": 547,
+    "kept_id": 112,
+    "overlap": 0.9805045677047038
+  },
+  {
+    "removed_id": 550,
+    "kept_id": 5,
+    "overlap": 0.9269464136336054
+  },
+  {
+    "removed_id": 553,
+    "kept_id": 125,
+    "overlap": 0.9593482082913942
+  },
+  {
+    "removed_id": 555,
+    "kept_id": 465,
+    "overlap": 0.9156586155181851
+  },
+  {
+    "removed_id": 560,
+    "kept_id": 46,
+    "overlap": 0.9936021737886757
+  },
+  {
+    "removed_id": 571,
+    "kept_id": 286,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 576,
+    "kept_id": 104,
+    "overlap": 0.9935143586436379
+  },
+  {
+    "removed_id": 577,
+    "kept_id": 322,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 578,
+    "kept_id": 30,
+    "overlap": 0.9508463586300351
+  },
+  {
+    "removed_id": 579,
+    "kept_id": 563,
+    "overlap": 0.9547347298062013
+  },
+  {
+    "removed_id": 582,
+    "kept_id": 294,
+    "overlap": 0.9036422423772827
+  },
+  {
+    "removed_id": 586,
+    "kept_id": 512,
+    "overlap": 0.8604460318999292
+  },
+  {
+    "removed_id": 594,
+    "kept_id": 430,
+    "overlap": 0.9477128386293993
+  },
+  {
+    "removed_id": 595,
+    "kept_id": 122,
+    "overlap": 0.9977065026383295
+  },
+  {
+    "removed_id": 597,
+    "kept_id": 463,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 600,
+    "kept_id": 126,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 601,
+    "kept_id": 350,
+    "overlap": 0.9648196503306397
+  },
+  {
+    "removed_id": 604,
+    "kept_id": 100,
+    "overlap": 0.9859842447006032
+  },
+  {
+    "removed_id": 605,
+    "kept_id": 179,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 608,
+    "kept_id": 152,
+    "overlap": 0.993928424128284
+  },
+  {
+    "removed_id": 614,
+    "kept_id": 519,
+    "overlap": 0.7796321174848444
+  },
+  {
+    "removed_id": 616,
+    "kept_id": 330,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 626,
+    "kept_id": 573,
+    "overlap": 0.9972696373741019
+  },
+  {
+    "removed_id": 630,
+    "kept_id": 447,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 632,
+    "kept_id": 223,
+    "overlap": 0.9097620221628214
+  },
+  {
+    "removed_id": 633,
+    "kept_id": 240,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 637,
+    "kept_id": 80,
+    "overlap": 0.954672084917027
+  },
+  {
+    "removed_id": 638,
+    "kept_id": 230,
+    "overlap": 0.9207859859641002
+  },
+  {
+    "removed_id": 650,
+    "kept_id": 580,
+    "overlap": 0.8829762327928948
+  },
+  {
+    "removed_id": 651,
+    "kept_id": 417,
+    "overlap": 0.9742359083707788
+  },
+  {
+    "removed_id": 652,
+    "kept_id": 503,
+    "overlap": 0.9955323780128442
+  },
+  {
+    "removed_id": 653,
+    "kept_id": 623,
+    "overlap": 0.8823645648394131
+  },
+  {
+    "removed_id": 656,
+    "kept_id": 502,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 660,
+    "kept_id": 297,
+    "overlap": 0.5737152302046574
+  },
+  {
+    "removed_id": 662,
+    "kept_id": 25,
+    "overlap": 0.7945677273026035
+  },
+  {
+    "removed_id": 666,
+    "kept_id": 156,
+    "overlap": 0.871047655181067
+  },
+  {
+    "removed_id": 670,
+    "kept_id": 54,
+    "overlap": 0.9872384384240148
+  },
+  {
+    "removed_id": 674,
+    "kept_id": 21,
+    "overlap": 0.7453638237248318
+  },
+  {
+    "removed_id": 675,
+    "kept_id": 77,
+    "overlap": 0.9968017437976422
+  },
+  {
+    "removed_id": 677,
+    "kept_id": 663,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 683,
+    "kept_id": 606,
+    "overlap": 0.9547974563127722
+  },
+  {
+    "removed_id": 692,
+    "kept_id": 253,
+    "overlap": 0.9967513827177107
+  },
+  {
+    "removed_id": 694,
+    "kept_id": 168,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 696,
+    "kept_id": 657,
+    "overlap": 0.9609961788407663
+  },
+  {
+    "removed_id": 700,
+    "kept_id": 206,
+    "overlap": 0.9858917056697033
+  },
+  {
+    "removed_id": 701,
+    "kept_id": 615,
+    "overlap": 0.9674476551902199
+  },
+  {
+    "removed_id": 702,
+    "kept_id": 516,
+    "overlap": 0.8692568176742094
+  },
+  {
+    "removed_id": 704,
+    "kept_id": 412,
+    "overlap": 0.9750966156582883
+  },
+  {
+    "removed_id": 708,
+    "kept_id": 194,
+    "overlap": 0.7205958771858149
+  },
+  {
+    "removed_id": 713,
+    "kept_id": 53,
+    "overlap": 0.9797019913865094
+  },
+  {
+    "removed_id": 721,
+    "kept_id": 72,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 722,
+    "kept_id": 405,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 725,
+    "kept_id": 267,
+    "overlap": 0.9807128601204134
+  },
+  {
+    "removed_id": 727,
+    "kept_id": 522,
+    "overlap": 0.7550406695201578
+  },
+  {
+    "removed_id": 728,
+    "kept_id": 705,
+    "overlap": 0.9749645583987978
+  },
+  {
+    "removed_id": 732,
+    "kept_id": 469,
+    "overlap": 0.7927258574353487
+  },
+  {
+    "removed_id": 733,
+    "kept_id": 338,
+    "overlap": 0.9656620867507038
+  },
+  {
+    "removed_id": 734,
+    "kept_id": 639,
+    "overlap": 0.8220335621665777
+  },
+  {
+    "removed_id": 735,
+    "kept_id": 671,
+    "overlap": 0.8197348397965339
+  },
+  {
+    "removed_id": 736,
+    "kept_id": 331,
+    "overlap": 0.9442283946484822
+  },
+  {
+    "removed_id": 737,
+    "kept_id": 644,
+    "overlap": 0.8878136090488357
+  },
+  {
+    "removed_id": 738,
+    "kept_id": 387,
+    "overlap": 0.8857248196093704
+  },
+  {
+    "removed_id": 742,
+    "kept_id": 201,
+    "overlap": 0.8943861465201689
+  },
+  {
+    "removed_id": 743,
+    "kept_id": 210,
+    "overlap": 0.9729423355343847
+  },
+  {
+    "removed_id": 748,
+    "kept_id": 299,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 749,
+    "kept_id": 575,
+    "overlap": 0.9872227843292671
+  },
+  {
+    "removed_id": 752,
+    "kept_id": 501,
+    "overlap": 0.8968962615542175
+  },
+  {
+    "removed_id": 754,
+    "kept_id": 352,
+    "overlap": 0.998162162199446
+  },
+  {
+    "removed_id": 758,
+    "kept_id": 7,
+    "overlap": 0.8613369710760115
+  },
+  {
+    "removed_id": 765,
+    "kept_id": 753,
+    "overlap": 0.7161461386011786
+  },
+  {
+    "removed_id": 770,
+    "kept_id": 130,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 776,
+    "kept_id": 348,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 784,
+    "kept_id": 463,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 786,
+    "kept_id": 509,
+    "overlap": 0.7515190132031689
+  },
+  {
+    "removed_id": 787,
+    "kept_id": 312,
+    "overlap": 0.8938119255374904
+  },
+  {
+    "removed_id": 790,
+    "kept_id": 417,
+    "overlap": 0.9927337971391886
+  },
+  {
+    "removed_id": 791,
+    "kept_id": 449,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 793,
+    "kept_id": 253,
+    "overlap": 0.9878358364394404
+  },
+  {
+    "removed_id": 797,
+    "kept_id": 625,
+    "overlap": 0.56572243924871
+  },
+  {
+    "removed_id": 798,
+    "kept_id": 70,
+    "overlap": 0.9107958499241277
+  },
+  {
+    "removed_id": 801,
+    "kept_id": 381,
+    "overlap": 0.9872212500323975
+  },
+  {
+    "removed_id": 802,
+    "kept_id": 518,
+    "overlap": 0.8756767227646854
+  },
+  {
+    "removed_id": 805,
+    "kept_id": 369,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 811,
+    "kept_id": 719,
+    "overlap": 0.9289519803581819
+  },
+  {
+    "removed_id": 813,
+    "kept_id": 528,
+    "overlap": 0.8808212006495699
+  },
+  {
+    "removed_id": 816,
+    "kept_id": 521,
+    "overlap": 0.6647714119695757
+  },
+  {
+    "removed_id": 817,
+    "kept_id": 371,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 819,
+    "kept_id": 570,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 820,
+    "kept_id": 123,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 822,
+    "kept_id": 590,
+    "overlap": 0.8028286576764027
+  },
+  {
+    "removed_id": 826,
+    "kept_id": 317,
+    "overlap": 0.7953547122114085
+  },
+  {
+    "removed_id": 833,
+    "kept_id": 80,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 834,
+    "kept_id": 479,
+    "overlap": 0.9230911960729344
+  },
+  {
+    "removed_id": 837,
+    "kept_id": 310,
+    "overlap": 0.8497705902442126
+  },
+  {
+    "removed_id": 838,
+    "kept_id": 757,
+    "overlap": 0.9062974203338392
+  },
+  {
+    "removed_id": 840,
+    "kept_id": 795,
+    "overlap": 0.7792541368855797
+  },
+  {
+    "removed_id": 841,
+    "kept_id": 480,
+    "overlap": 0.912058353213545
+  },
+  {
+    "removed_id": 842,
+    "kept_id": 533,
+    "overlap": 0.9739714368841859
+  },
+  {
+    "removed_id": 845,
+    "kept_id": 285,
+    "overlap": 0.8843119480473866
+  },
+  {
+    "removed_id": 847,
+    "kept_id": 607,
+    "overlap": 0.8881783536157888
+  },
+  {
+    "removed_id": 848,
+    "kept_id": 716,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 849,
+    "kept_id": 460,
+    "overlap": 0.9762168946419314
+  },
+  {
+    "removed_id": 850,
+    "kept_id": 227,
+    "overlap": 0.8380955639534037
+  },
+  {
+    "removed_id": 851,
+    "kept_id": 744,
+    "overlap": 0.6265281637797311
+  },
+  {
+    "removed_id": 852,
+    "kept_id": 551,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 855,
+    "kept_id": 236,
+    "overlap": 0.8542501988984491
+  },
+  {
+    "removed_id": 856,
+    "kept_id": 139,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 857,
+    "kept_id": 531,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 861,
+    "kept_id": 775,
+    "overlap": 0.9806827879061192
+  },
+  {
+    "removed_id": 862,
+    "kept_id": 219,
+    "overlap": 0.858943537944153
+  },
+  {
+    "removed_id": 867,
+    "kept_id": 309,
+    "overlap": 0.9065377576919079
+  },
+  {
+    "removed_id": 870,
+    "kept_id": 470,
+    "overlap": 0.9680138283719325
+  },
+  {
+    "removed_id": 873,
+    "kept_id": 585,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 874,
+    "kept_id": 115,
+    "overlap": 0.9866945662407027
+  },
+  {
+    "removed_id": 878,
+    "kept_id": 643,
+    "overlap": 0.9518748736887432
+  },
+  {
+    "removed_id": 879,
+    "kept_id": 270,
+    "overlap": 0.7708769587065627
+  },
+  {
+    "removed_id": 884,
+    "kept_id": 574,
+    "overlap": 0.8461367984699235
+  },
+  {
+    "removed_id": 885,
+    "kept_id": 423,
+    "overlap": 0.9516915275159774
+  },
+  {
+    "removed_id": 886,
+    "kept_id": 337,
+    "overlap": 0.9985515047142408
+  },
+  {
+    "removed_id": 887,
+    "kept_id": 629,
+    "overlap": 0.9343994086592223
+  },
+  {
+    "removed_id": 889,
+    "kept_id": 762,
+    "overlap": 0.9833012503889683
+  },
+  {
+    "removed_id": 891,
+    "kept_id": 162,
+    "overlap": 0.9323478852613568
+  },
+  {
+    "removed_id": 892,
+    "kept_id": 681,
+    "overlap": 0.5537636888160975
+  },
+  {
+    "removed_id": 897,
+    "kept_id": 532,
+    "overlap": 0.6287039506638651
+  },
+  {
+    "removed_id": 900,
+    "kept_id": 527,
+    "overlap": 0.8634765107947414
+  },
+  {
+    "removed_id": 903,
+    "kept_id": 12,
+    "overlap": 0.9583098097339474
+  },
+  {
+    "removed_id": 907,
+    "kept_id": 902,
+    "overlap": 0.5017623802410132
+  },
+  {
+    "removed_id": 908,
+    "kept_id": 540,
+    "overlap": 0.8109036010750125
+  },
+  {
+    "removed_id": 909,
+    "kept_id": 618,
+    "overlap": 0.6494339440563889
+  },
+  {
+    "removed_id": 910,
+    "kept_id": 672,
+    "overlap": 0.7563872964581528
+  },
+  {
+    "removed_id": 911,
+    "kept_id": 643,
+    "overlap": 0.7317034315265633
+  },
+  {
+    "removed_id": 913,
+    "kept_id": 373,
+    "overlap": 0.9068777620213013
+  },
+  {
+    "removed_id": 915,
+    "kept_id": 166,
+    "overlap": 0.9833116028556529
+  },
+  {
+    "removed_id": 916,
+    "kept_id": 794,
+    "overlap": 0.7311031204397187
+  },
+  {
+    "removed_id": 920,
+    "kept_id": 877,
+    "overlap": 0.5685634149241211
+  },
+  {
+    "removed_id": 922,
+    "kept_id": 443,
+    "overlap": 0.702805035706292
+  },
+  {
+    "removed_id": 923,
+    "kept_id": 695,
+    "overlap": 0.8725514429512448
+  },
+  {
+    "removed_id": 924,
+    "kept_id": 189,
+    "overlap": 0.9480673381064872
+  },
+  {
+    "removed_id": 925,
+    "kept_id": 695,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 928,
+    "kept_id": 336,
+    "overlap": 0.7680763831174134
+  },
+  {
+    "removed_id": 929,
+    "kept_id": 917,
+    "overlap": 0.7648892452014806
+  },
+  {
+    "removed_id": 930,
+    "kept_id": 808,
+    "overlap": 0.9381587362615019
+  },
+  {
+    "removed_id": 933,
+    "kept_id": 658,
+    "overlap": 0.98612202799085
+  },
+  {
+    "removed_id": 934,
+    "kept_id": 339,
+    "overlap": 0.7170323727191312
+  },
+  {
+    "removed_id": 937,
+    "kept_id": 809,
+    "overlap": 0.760100686183235
+  },
+  {
+    "removed_id": 938,
+    "kept_id": 558,
+    "overlap": 0.9720514081010784
+  },
+  {
+    "removed_id": 939,
+    "kept_id": 408,
+    "overlap": 0.7698052559481646
+  },
+  {
+    "removed_id": 940,
+    "kept_id": 189,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 941,
+    "kept_id": 719,
+    "overlap": 0.9430151314302024
+  },
+  {
+    "removed_id": 944,
+    "kept_id": 775,
+    "overlap": 0.8291032660613823
+  },
+  {
+    "removed_id": 945,
+    "kept_id": 155,
+    "overlap": 0.9484823787048963
+  },
+  {
+    "removed_id": 946,
+    "kept_id": 901,
+    "overlap": 0.8532169779158302
+  },
+  {
+    "removed_id": 948,
+    "kept_id": 710,
+    "overlap": 0.9311811092092924
+  },
+  {
+    "removed_id": 950,
+    "kept_id": 213,
+    "overlap": 0.998302242239634
+  },
+  {
+    "removed_id": 952,
+    "kept_id": 627,
+    "overlap": 0.8057936243889009
+  },
+  {
+    "removed_id": 954,
+    "kept_id": 417,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 955,
+    "kept_id": 491,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 956,
+    "kept_id": 446,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 957,
+    "kept_id": 321,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 958,
+    "kept_id": 655,
+    "overlap": 0.9539004478162059
+  },
+  {
+    "removed_id": 959,
+    "kept_id": 625,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 960,
+    "kept_id": 201,
+    "overlap": 0.9633686545543736
+  },
+  {
+    "removed_id": 962,
+    "kept_id": 617,
+    "overlap": 0.8455562459855679
+  },
+  {
+    "removed_id": 964,
+    "kept_id": 623,
+    "overlap": 0.5837301385715825
+  },
+  {
+    "removed_id": 965,
+    "kept_id": 114,
+    "overlap": 0.960663639488295
+  },
+  {
+    "removed_id": 967,
+    "kept_id": 28,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 968,
+    "kept_id": 73,
+    "overlap": 0.9973859451164196
+  },
+  {
+    "removed_id": 970,
+    "kept_id": 580,
+    "overlap": 0.7082503089240657
+  },
+  {
+    "removed_id": 971,
+    "kept_id": 810,
+    "overlap": 0.6267067753708236
+  },
+  {
+    "removed_id": 972,
+    "kept_id": 465,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 974,
+    "kept_id": 542,
+    "overlap": 0.9103473689349983
+  },
+  {
+    "removed_id": 976,
+    "kept_id": 715,
+    "overlap": 0.770928191606776
+  },
+  {
+    "removed_id": 978,
+    "kept_id": 21,
+    "overlap": 1.0
+  },
+  {
+    "removed_id": 979,
+    "kept_id": 122,
+    "overlap": 0.8654079066892881
+  },
+  {
+    "removed_id": 980,
+    "kept_id": 839,
+    "overlap": 0.9963778814940382
+  },
+  {
+    "removed_id": 981,
+    "kept_id": 304,
+    "overlap": 0.9366867382055779
+  },
+  {
+    "removed_id": 982,
+    "kept_id": 332,
+    "overlap": 0.9627885564211888
+  },
+  {
+    "removed_id": 985,
+    "kept_id": 719,
+    "overlap": 0.8809013687250118
+  },
+  {
+    "removed_id": 986,
+    "kept_id": 858,
+    "overlap": 0.8719183024643596
+  },
+  {
+    "removed_id": 987,
+    "kept_id": 515,
+    "overlap": 0.9944047922026228
+  },
+  {
+    "removed_id": 988,
+    "kept_id": 479,
+    "overlap": 0.9821410509539373
+  },
+  {
+    "removed_id": 989,
+    "kept_id": 469,
+    "overlap": 1.0
+  }
+]
