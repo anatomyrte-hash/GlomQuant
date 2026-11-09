@@ -1,4 +1,4 @@
-# GlomQuant
+[# GlomQuant
 
 GlomQuant detects and counts two-dimensional glomerular profile candidates in rat kidney whole-slide images and exports editable, numbered GeoJSON boxes for QuPath. This is a Windows x64 **0.1.0-rc1 release candidate**, prepared for installation testing on another computer. It has not yet passed that external installation test.
 
@@ -31,3 +31,4 @@ Software and packaged weights: AGPL-3.0-or-later (see `LICENSE` and Ultralytics'
 ## Running from source
 
 Developers with Python 3.11 on Windows x64 may create a private environment, install `requirements.lock.txt`, run `python self_check.py`, and then `python app.py`. The numbered CMD launchers are for the Windows release ZIP that includes `runtime/`; they are not source-only launchers. Keep weights and examples in their supplied relative folders.
+](https://github.com/anatomyrte-hash/GlomQuant/edit/main/README.md)
